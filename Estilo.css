@@ -1,0 +1,29 @@
+/* Estilo básico para tu sitio web */
+
+/* Estilo general del cuerpo de la página */
+body {
+    background-color: #f0f0f0; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    color: #333333; /* Color del texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #333366; /* Color de los encabezados */
+}
+
+/* Estilo de los párrafos */
+p {
+    line-height: 1.6; /* Espacio entre líneas */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #0066cc; /* Color de los enlaces */
+}
+
+a:hover {
+    color: #003399; /* Color de los enlaces al pasar el mouse */
+}
