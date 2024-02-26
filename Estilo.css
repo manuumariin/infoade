@@ -1,78 +1,76 @@
-/* Estilo moderno para un sitio web de informática */
 
-/* Reset básico para asegurar consistencia en diferentes navegadores */
+body{
+    background-color:bisque;
+}
+
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna */
-    background-color: #1a1a1a; /* Fondo oscuro para un look tecnológico */
-    color: #f5f5f5; /* Texto claro para contraste */
-    line-height: 1.6;
+.títuto {
+
+    border: 1px;
+    border: black;
+    background-color: grey;
+
 }
 
-/* Estilos para el contenedor principal */
-.container {
-    width: 80%;
-    margin: auto;
+p, div {
+
+    text-align: center;
+    size: 20px;
+}
+
+.contenido {
+
+    border: black;
+    border: 1px;
+    background-color: grey;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    background-image: url(../img/cx-picture-100608993-primary-idge_.webp)
+    ;
+}
+
+.Índice {
+    text-align: center;
+    background-color: grey;
+
+}
+
+a {
+
+    background-color: tomato;
+
+    color:white;
+
     overflow: hidden;
-}
 
-/* Estilo de los encabezados */
-header {
-    background: #333333;
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #008000 solid 4px;
-}
-
-/* Navegación */
-nav {
-    float: right;
-    margin-top: 10px;
-}
-
-nav a {
-    color: #ffffff;
     text-decoration: none;
-    padding: 10px 20px;
-    font-size: 17px;
+
 }
 
-nav a:hover {
-    background: #008000;
-    border-radius: 5px;
-}
+.descarga {
 
-/* Banner */
-.banner {
-    background: url('banner.jpg') no-repeat center center/cover;
-    height: 300px;
     text-align: center;
-    color: #ffffff;
-    padding-top: 100px;
-}
 
-/* Estilos de secciones */
-section {
-    padding: 20px 0;
-    color: #ffffff;
-}
-
-/* Pie de página */
-footer {
-    background: #333333;
-    color: #ffffff;
-    text-align: center;
     padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+
+    size: 80px;
 }
 
-/* Añade más estilos según
+ul {
+
+    list-style-type: circle;
+
+
+}
+
+img {
+    size: 30px;
+    overflow: hidden;
+    
+}
