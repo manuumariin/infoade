@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
 }
 
-.títuto {
+.título {
 
     border: 1px;
     border: black;
@@ -31,7 +31,7 @@ p, div {
 h1 {
     color: red;
     text-align: center;
-    background-image: url(../img/cx-picture-100608993-primary-idge_.webp)
+    /* background-image: url(../img/cx-picture-100608993-primary-idge_.webp) */
     ;
 }
 
