@@ -1,5 +1,4 @@
-
-/*Estilo general de la página*/
+/*Estilo de la página*/
 
 body { 
 
@@ -11,10 +10,17 @@ body {
     box-sizing: border-box;
 }
 
-/*Estilo del menú de navegación*/
-
+/*Estilo de la página*/
 .nav ul {
     list-style: none;
+}
+
+.nav div {
+
+    background-color: black;
+    border: 1px solid black;
+    width: 100px;
+    height: 10%;
 }
 
 .nav a {
@@ -23,12 +29,41 @@ body {
     color:black;
     font-family: 'Roboto';
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    height: 30px;
 
 }
 
 a:hover {
     background-color: yellowgreen;
     color: white;
+}
+
+.entradilla {
+
+    background-color: white;
+    border: 1px, solid, black;
+    padding: 10px;
+}
+
+.entradilla h1 {
+
+    background-color: white;
+    font-weight: bolder;
+    
+
+}
+
+.entradilla p {
+
+        font-size: 16px;
+
+}
+
+.pd {
+
+    text-align: center;
+
 }
