@@ -1,0 +1,204 @@
+
+/*Propiedades generales del documento*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+/*Propiedades del navegador*/
+
+.nav {
+    margin:0;
+    padding:10px;
+    border-bottom: 1px solid black;
+    background-color: gold;
+
+}
+
+.nav a {
+
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    margin-left: 10px ;
+    margin-right: 10px ;    
+    padding:10px;
+    border-radius:5px;
+}
+
+.nav a:hover {
+    background-color: orange;
+    color:white;
+    border: 1px solid black;
+}
+
+.nav img {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+/*Propiedades de la entradilla*/
+
+.entradilla {
+    padding:10px;
+    margin:10px;
+}
+
+.entradilla h1 {
+    font-family: 'Lexend';
+}
+
+.pd{
+
+    border: 1px solid black;
+    background-color: ghostwhite;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+.pd i b {
+    text-align: center;
+}
+
+/*Propiedades de la lista de recursos*/
+
+.menú {
+    margin: 10px;
+    margin-top:20px;
+    padding: 10px;
+    border-top: 1px solid black ;
+    background-color: aliceblue;
+}
+
+/*Caja1*/
+
+.menú .caja1 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.menú .caja1:hover {
+    background-color: whitesmoke;
+}
+
+.año1 details{
+    border-bottom: 1px solid black;
+}
+
+.año1 summary {
+    margin-left: 20px;
+
+}
+
+.título {
+    margin-left: 20px;
+}
+
+/*Caja2*/
+
+.menú .caja2 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.menú .caja2:hover {
+    background-color: gold;
+}
+
+.año2 details{
+    border-bottom: 1px solid black;
+}
+
+.año2 summary {
+    margin-left: 20px;
+
+}
+
+/*Caja3*/
+
+.menú .caja3 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.menú .caja3:hover {
+    background-color: gold;
+}
+
+.año3 details{
+    border-bottom: 1px solid black;
+}
+
+.año3 summary {
+    margin-left: 20px;
+
+}
+
+/*Caja4*/
+
+.menú .caja4 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.menú .caja4:hover {
+    background-color: gold;
+}
+
+.año4 details{
+    border-bottom: 1px solid black;
+}
+
+.año4 summary {
+    margin-left: 20px;
+
+}
+
+/*Caja5*/
+
+.menú .caja5 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.menú .caja5:hover {
+    background-color: gold;
+}
+
+.año5 details{
+    border-bottom: 1px solid black;
+}
+
+.año5 summary {
+    margin-left: 20px;
+
+}
+
+/*Propiedades del pie de página*/
+
+footer {
+    background-color: wheat;
+    border-top: 1px solid black;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
